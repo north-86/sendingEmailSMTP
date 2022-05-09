@@ -21,3 +21,4 @@ text = input('Enter text\n')
 message = 'Subject: ' + subject + '\n ' + text
 smtpObject.sendmail(emailOut, emailIn, message)
 smtpObject.quit()
+input()
